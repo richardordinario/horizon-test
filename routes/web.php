@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
 Route::get('/', function () {
-    return redirect('/login');
+    return redirect('/songs');
 });
 
 Route::middleware(["auth"])->group(function () {
